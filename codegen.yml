@@ -1,0 +1,9 @@
+schema: "https://graphql-pokemon2.vercel.app" # GraphiQLを指定
+generates:
+  ./packages/@types/types.d.ts:
+    plugins:
+      - "typescript"
+      - "typescript-operations" # fqueryやmutationで使用するOperationとかの型定義まで作ってくれる
+  ./schema.graphql: # これ以下を記述するとschema.graphqlをDocumentから作ってくれる
+    plugins:
+      - schema-ast
