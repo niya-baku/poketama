@@ -1,4 +1,4 @@
-schema: "https://graphql-pokemon2.vercel.app" # GraphiQLを指定
+schema: "https://beta.pokeapi.co/graphql/v1beta" # GraphiQLを指定
 generates:
   ./packages/@types/types.d.ts:
     plugins:
