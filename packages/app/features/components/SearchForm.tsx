@@ -11,9 +11,7 @@ const SearchForm: React.FC<PropType> = ({ setpokemonName }) => {
     const [textData, setTextData] = useState('')
 
     const submitHandler = (text) => {
-      console.log(`submit text: ${text}`)
         if (text !== null) {
-            console.log(`setpokemonName: ${text}`)
             setpokemonName(text)
         }
     }
