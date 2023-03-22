@@ -5,7 +5,7 @@ import { useLink } from 'solito/link'
 import { ApolloProvider } from "@apollo/client";
 import { apolloClient } from "../../../graphql/client";
 import { ResultField } from '../components/ResultField';
-import { SelectGeneration } from '../components/generationSelection';
+import { SelectGeneration } from '../components/GenerationSelection';
 
 export function HomeScreen() {
 
@@ -27,6 +27,5 @@ export function HomeScreen() {
         </ApolloProvider> 
       </YStack>
     </YStack>
-
   )
 }

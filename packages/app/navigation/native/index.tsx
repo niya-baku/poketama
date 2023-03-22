@@ -2,14 +2,16 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
 import { HomeScreen } from '../../features/home/screen'
 import { UserDetailScreen } from '../../features/user/detail-screen'
-import { SelectScreen } from '../../features/select/select-screen'
+import { DetailScreen } from '../../features/detail/detail-screen'
 
 const Stack = createNativeStackNavigator<{
   home: undefined
   'user-detail': {
     id: string
   }
-  'select-detail': undefined
+  'select-detail': {
+    id: string
+  }
 }>()
 
 export function NativeNavigation() {
@@ -19,7 +21,7 @@ export function NativeNavigation() {
         name="home"
         component={HomeScreen}
         options={{
-          title: 'Home',
+          title: 'ポケモンずかん',
         }}
       />
       <Stack.Screen
@@ -31,9 +33,9 @@ export function NativeNavigation() {
       />
       <Stack.Screen
         name="select-detail"
-        component={SelectScreen}
+        component={DetailScreen}
         options={{
-          title: 'Select',
+          title: 'データ',
         }}
       />
     </Stack.Navigator>

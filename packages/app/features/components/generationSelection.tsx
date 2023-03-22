@@ -1,7 +1,5 @@
 import { Check, ChevronDown, ChevronUp } from '@tamagui/lucide-icons'
-import { useState } from 'react'
 import { Adapt, Select, Sheet, YStack, XStack, Text } from 'tamagui'
-import { LinearGradient } from 'tamagui/linear-gradient'
 
 const selectItems = [
   { generation: 'generation-i'},
