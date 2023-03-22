@@ -10,7 +10,10 @@ https://tamagui.dev/
 
 ![スクリーンショット 2023-03-22 13 28 28](https://user-images.githubusercontent.com/40636920/226802371-329cae30-260f-4449-8f0b-7e34f771421a.png)
 
-### アプリ
-![Screenshot_20230322-133022486](https://user-images.githubusercontent.com/40636920/226802807-b9076373-4bf2-4a95-8174-d469305fd347.jpg)
+### アプリ 
+<img src="https://user-images.githubusercontent.com/40636920/226802817-d4e68894-2394-415c-a10c-a6379a2105af.jpg" width="30%" />　　　　<img src="https://user-images.githubusercontent.com/40636920/226802807-b9076373-4bf2-4a95-8174-d469305fd347.jpg" width="30%" /> 
 
-![Screenshot_20230322-133014478](https://user-images.githubusercontent.com/40636920/226802817-d4e68894-2394-415c-a10c-a6379a2105af.jpg)
+
+
+
+
