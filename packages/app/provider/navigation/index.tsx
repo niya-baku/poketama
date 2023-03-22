@@ -16,7 +16,7 @@ export function NavigationProvider({ children }: { children: React.ReactNode }) 
             screens: {
               home: '',
               'user-detail': 'user/:id',
-              'select-detail': 'select',
+              'select-detail': 'detail/:id',
             },
           },
         }),

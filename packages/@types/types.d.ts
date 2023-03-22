@@ -19,16 +19,44 @@ export type Species = {
   speciesNames: Array<SpeciesNames>;
 }
 
-export type GenerationsCount = {
-  count: number;
-  generations: Array<Generations>;
-  species: Array<Species>;
+export type Detail = {
+  specie: Array<SpeciesNames>;
+  individualInfo: Array<IndividualInfo>;
 }
 
 export type SpeciesNames = {
   name: Scalars['String'];
   genus: Scalars['String'];
 }
+
+export type IndividualInfo = {
+  stats: Array<Stats>;
+  types: Types;
+  abilities: Array<Abilities>;
+}
+
+export type Stats = {
+  base_stat: Scalars['Int'];
+  stat_name: { 
+    name: Scalars['String'];
+  };
+}
+
+export type Types = Array<Type>;
+
+export type Type = {
+  type: {
+    name: Scalars['String'];
+  }
+}
+
+export type Abilites = Array<Ability>;
+
+export type Ability = {
+  ability: {
+    name: Scalars['String'];
+  };
+} 
 
 /** Boolean expression to compare columns of type "Boolean". All fields are combined with logical 'AND'. */
 export type Boolean_Comparison_Exp = {
