@@ -6,7 +6,7 @@ https://tamagui.dev/
 ## 完成したアプリ画像
 
 ### Web
-<img width="1438" alt="スクリーンショット 2023-03-22 13 27 10" src="https://user-images.githubusercontent.com/40636920/226802148-06b431c8-b5f5-41fc-84fb-6e1c45eea5f0.png">
+<img width="1437" alt="スクリーンショット 2023-03-22 13 33 42" src="https://user-images.githubusercontent.com/40636920/226803001-582594c3-1d95-4ae8-98e0-db71b51df295.png">
 
 ![スクリーンショット 2023-03-22 13 28 28](https://user-images.githubusercontent.com/40636920/226802371-329cae30-260f-4449-8f0b-7e34f771421a.png)
 
