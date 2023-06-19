@@ -1,9 +1,9 @@
 import { Button, Paragraph, XStack, YStack, Sheet, Select, Adapt, Text, Spinner } from '@my/ui'
 import React, { useState } from 'react'
-import { DetailField } from "../components/DetailField";
+import { DetailField } from '../components/DetailField'
 import { createParam } from 'solito'
-import { ApolloProvider } from "@apollo/client";
-import { apolloClient } from "../../../graphql/client";
+import { ApolloProvider } from '@apollo/client'
+import { apolloClient } from '../../../graphql/client'
 
 const { useParam } = createParam<{ id: string }>()
 
@@ -14,7 +14,7 @@ export function DetailScreen() {
   return (
     <XStack f={1} jc="center" ai="center" space>
       <ApolloProvider client={apolloClient}>
-        <DetailField id={numID}/>
+        <DetailField id={numID} />
       </ApolloProvider>
     </XStack>
   )
